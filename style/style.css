@@ -1,10 +1,9 @@
-
-.roboto-normal{
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.roboto-normal {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* style shear */
@@ -37,8 +36,7 @@
     align-items: center;
     text-align: center;
     margin: 0 auto;
-     border: 2px solid red;
-    
+
 
 
 }
@@ -54,7 +52,7 @@
     line-height: 150%;
     color: #FFFFFF;
     border: none;
-   
+
 
 
 }
@@ -74,24 +72,46 @@
     line-height: 150%;
     letter-spacing: 0%;
     text-align: left;
-    
+
 
 }
 
 .Heading {
     text-align: center;
     width: 905px;
-    border: 2px solid red;
-    
-    
-    
+    height: 237px;
+    margin-left: 267px;
+    gap: 37px;
+    margin-bottom: 152px;
+    margin-top: 152px;
+
+
+
 }
 
-.Heading .h1{
-    width: 400px;
+.Heading .h1 {
+    width: 905px;
     height: 152px;
-    
+    font-size: 65px;
 
 
-    
+}
+
+.Stay-Focused-button {
+    padding: 12px 36px 12px 36px;
+    gap: 10;
+    border-radius: 10px;
+    background: rgb(78, 71, 255);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 150%;
+    color: #FFFFFF;
+    border: none;
+}
+.button:hover{
+    background-color: rgb(184, 184, 155);
+    color: black;
+    transition-duration: 0.4s;
+
 }
