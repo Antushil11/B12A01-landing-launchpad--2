@@ -311,6 +311,7 @@ body {
     gap: 50px;
     margin-bottom: 137px;
 
+
 }
 
 .Feedback .h1 {
@@ -432,6 +433,7 @@ body {
     margin-top: 92px;
     gap: 120px;
     margin-bottom: 116px;
+    margin-bottom: 14px;
 }
 
 .Touch-Section-Title {
@@ -442,23 +444,23 @@ body {
     gap: 233;
     font-family: Raleway;
     color: rgb(0, 0, 0);
-    
+
 
 }
 
 .Touch-Right-Side {
     width: 497px;
     height: 490px;
-    
+
     position: relative;
-    right:  10px;
+    right: 10px;
 
 }
 
 .form-box {
     width: 497px;
     height: 70px;
-    
+
     box-sizing: border-box;
     border: 1px solid rgb(214, 221, 237);
     border-radius: 10px;
@@ -506,8 +508,80 @@ body {
     border: none;
     width: 497px;
     height: 62px;
-    font-family: Inter;
+    
 
 }
 
- /* main end */
+/* main end */
+
+
+/* footer start */
+.Footer-Section {
+    width: 1440px;
+    height: 428px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    
+    
+    
+   
+}
+
+.centered{
+
+    width: 531px;
+    height: 221px;
+    text-align: center;
+    margin: 104px 455px 103px 454px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+    top: 104px;
+    
+    
+    
+
+
+}
+.centered h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgb(78, 71, 255);
+    width: 291px;
+    height: 121px;
+    
+    margin-top: 0px;
+    margin-bottom: -8px;
+    text-align: center;
+
+}
+.centered p{
+    width: 531px;
+    height: 48px;
+    
+    color: rgb(137, 135, 161);
+    font-weight: 400;
+    font-family: inter;
+    text-align: center;
+    
+}
+
+.Links {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 401px;
+    height: 24px;
+    margin-top: 10px;
+    
+}
+
+.Links a{
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    
+}
+/* footer end  */
