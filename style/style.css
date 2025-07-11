@@ -138,7 +138,7 @@ body {
     width: 1140px;
     height: 328px;
     margin: 0 auto;
-    border: 2px solid red;
+
     margin-top: 116px;
     gap: 120px;
     margin-bottom: 116px;
@@ -221,13 +221,194 @@ body {
 /* Active-user */
 
 .Centered-title {
-    border-radius: 24px;
-    background-color: rgba(78, 71, 255, 0.1);
     width: 1140px;
-    height: 306px;
-    gap: 10px;
-    padding: 50px 80px 50px 80px;
+    height: 328px;
     margin: 0 auto;
-    margin-top: 16px;
+    margin-top: 116px;
+    gap: 10px;
+    margin-bottom: 116px;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+
+
+}
+
+.Centered {
+    width: 856px;
+    height: 206px;
+    margin: 0px 142px;
+    text-align: center;
+
+    position: relative;
+    top: 50px;
+
+
+}
+
+.Centered-title h2 {
+    width: 856px;
+    height: 45px;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 0PX;
+    font-family: Raleway;
+
+
+}
+
+.data-with-subtitle {
+
+    display: flex;
+    justify-content: space-between;
+
+
+    padding: 0px;
+    margin: 40px 0px;
+
+}
+
+.Active-user {
+    text-align: center;
+    color: rgb(78, 71, 255);
+    width: 180px;
+    height: 121px;
+    font-size: 76px;
+
+    gap: 158px;
+
+
+}
+
+.Active-user h1 {
+    position: relative;
+    bottom: 120px;
+    right: 16px;
+
+}
+
+.Active-user p {
+    width: 160px;
+    height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Inter;
+    position: relative;
+    bottom: 230px;
+    left: 1px;
+
+}
+
+/* CHALLENGES  section */
+
+.Feedback-Section {
+    width: 1140px;
+    height: 342px;
+    padding: 0px;
+   
+    margin: 0 auto;
+    gap: 50px;
+    margin-bottom: 137px;
+    
+}
+.Feedback .h1{
+    text-align: center;
+    font-size: 42px;
+    
+    width: 1140px;
+    height: 49px;
+    font-weight: 700;
+    
+    margin-top: 0px;
+    font-family: Raleway;
+    color: rgb(37, 36, 50);
+    line-height: 49px;
+    
+
+
+}
+.Feedback-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    
+    width: 1140px;
+    height: 243px;
+    gap: 20px;
+    text-align: left;
+    
+}
+
+.star-users {
+    width: 340px;
+    height: 243px;
+    padding: 24px;
+    margin: 0px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    right: 20px;
+    
+
+
+}
+.Title{
+    font-size: 24px;
+    font-weight: 600px;
+    font-family: Inter;
+}
+.Subtitle{
+    color: rgb(30, 30, 30);
+    font-size: 16px;
+    font-family: Inter;
+    text-align: left;
+}
+
+.Reviewer {
+    display: flex;
+    
+    width: 314px;
+    height: 46px;
+    gap: 12;
+
+}
+
+.Reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+.Reviewer-name-date{
+    padding: 0px;
+    gap: 2px;
+    margin: 0px 12px;
+   
+    margin: 0px 0px ;  
+    text-align: center;
+    position: relative;
+    left: 10px;
+     
+}
+
+.Reviewer-name{
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+    text-align: left;
+    text-align: top;
+    font-weight: 600;
+    font-family: Inter;
+    position: relative;
+    bottom: 20px;
+}
+
+.date{
+    color: rgba(179, 179, 179, 1);
+    text-align: left;
+    position: relative;
+    bottom: 40px;
     border: 2px solid red;
+    
 }
